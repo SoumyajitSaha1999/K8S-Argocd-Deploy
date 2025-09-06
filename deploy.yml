@@ -28,4 +28,5 @@ spec:
     app: bank
   ports:
     - port: 80
-      nodeport: 31433
+      targetPort: 80
+      # nodeport: 31433
